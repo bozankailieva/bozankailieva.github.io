@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div id="menu">
+            <ul>
+                <li><a href="home-page.html"> Home </a></li>
+                <li><a href="about-me.html"> About me </a></li>
+                <li><a href="skills.html"> Skills </a></li>
+                <li><a href="arduino-project.html"> Arduino Project </a></li>
+                <li class="selected"><a href="contact.html"> Contact </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="c-form-right">
+        <h1 class="title">Contact Form</h1>
+        <p>
+            If I can satisfy your needs and requests or if you simply want to share your thoughts,
+            feel free to contact me on the following form or on any of the social networks listed below.
+        </p>
+        <p><strong>E-mail:</strong> &nbsp &nbsp bozankailieva@gmail.com</p>
+        <p><strong>Address:</strong> &nbsp Nikola Minchev 19</p>
+        <p><strong>Phone:</strong> &nbsp &nbsp +389 78 288 372</p>
+        <p>
+            <a href="https://www.facebook.com/bozankailieva/" class="fa"><img src="images/facbook-logo.png" alt="facebook-link" class="link"></a>
+            &nbsp
+            <a href="https://www.instagram.com/bozankailieva/" class="fa"><img src="images/instagram-logo.png" alt="instagram-link" class="link"></a>
+        </p>
+    </div>
+    <div class="fcf-body">
+
+        <div id="fcf-form">
+<!--            <h3 class="fcf-h3">Contact me</h3>-->
+
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact.html">
+
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Your message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <hr>
+    <footer> <p> © 2022 Bozhanka Ilieva. Kavadarci, North Macedonia </p> </footer>
+
+</body>
+</html>
